@@ -1,11 +1,40 @@
 p{
-    color: blue;
+    font-size: 20px;
+    /* font-family: sans-serif; */
 }
 
-.color-red{
+h1{
+    font-size: 40px;
+    /* font-family: sans-serif; */
+}
+
+/* Grouping the selectors */
+p, h1{
+    font-family: sans-serif;
+}
+
+.uppercase{
+    text-transform: uppercase;
+}
+
+.cursive{
+    font-family: cursive;
+}
+
+/* Nesting in CSS
+li h4{
+    text-transform: uppercase;
+    font-family: cursive;
+} */
+
+#blog-desc{
+    color: #314831;
+}
+
+/* #site-desc p{
     color: red;
-}
+} */
 
-#para-id{
+#blog-title:hover{
     color: orange;
 }
