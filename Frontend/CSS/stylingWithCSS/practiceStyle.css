@@ -1,5 +1,15 @@
+html{
+    font-size: 20px;
+}
+
 #div1{
-    height: 300px;
-    width: 300px;
-    background-color: hsl(120,100%,50%,0.5);
+    height: 4rem;
+    width: 6rem;
+    background-color: #393a7b;
+}
+
+#div2{
+    height: 50%;
+    width: 50%;
+    background-color: cyan;
 }
