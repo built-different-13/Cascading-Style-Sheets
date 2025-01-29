@@ -1,0 +1,9 @@
+#img-logo-container{
+    height: 100vh;
+    width: 100vw;
+    background-image: url("WhatsApp Image 2025-01-17 at 13.10.08_4b9a14b1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
