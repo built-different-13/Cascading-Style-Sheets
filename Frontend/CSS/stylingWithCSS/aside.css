@@ -1,0 +1,83 @@
+body{
+    background-color: #FFFFFF;
+    margin-top: 55px;
+}
+
+html{
+    font-size: 15px;
+}
+
+#site-title{
+    color: black;
+    text-decoration: none;
+}
+
+#site-title:hover{
+    color: #E0671F;
+}
+
+#about-site{
+    margin-top: -15px;
+    color: #3C5349;
+}
+
+#site-info{
+    margin-bottom: 50px;
+}
+
+/* Main */
+main{
+    width: 70%;
+    display: inline-block;
+    
+}
+
+#main-content{
+    text-align: justify;
+    /* margin-right: -200px; */
+}
+
+/* Aside */
+
+aside{
+    display: inline-block;
+    width: 21%;
+    vertical-align: top;
+    margin-top: 50px;
+    margin-left: 7%;
+}
+
+.widget{
+    border-top: 4px solid black;
+}
+
+.widget input{
+    display: block;
+    background-color: #f7f7f7;
+    color: black;
+    margin-bottom: 15px;
+    padding: 4px;
+    /* font-size: 1.2rem; */
+}
+
+.widget button{
+    color: white;
+    background-color: black;
+    padding: 6px;
+    font-size: 1.2rem;
+    border-radius: 5%;
+}
+
+.widget-title{
+    font-size: 1rem;
+    text-transform: uppercase;
+    font-family: sans-serif;
+}
+
+#posts{
+    margin-top: 40px;
+}
+
+#posts p{
+    color: #E0671F;
+}
