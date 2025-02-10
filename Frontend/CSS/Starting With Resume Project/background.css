@@ -1,0 +1,15 @@
+body{
+    margin: 0px;
+}
+
+#body-header{
+    height: 65vh;
+    width: 100vw;
+    background-image: url("WhatsApp Image 2025-01-17 at 13.10.08_3d2cb568.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    /* opacity: 1; */
+    background-attachment: fixed;
+}
+
