@@ -1,0 +1,231 @@
+body{
+    margin: 0px;
+}
+
+html{
+    font-size: 15px;
+}
+
+/* Body-Header */
+#body-header{
+    height: 65vh;
+    width: 100vw;
+    background-image: url("macbook_mouse.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    opacity: 1;
+}
+
+/* Horizontal-List */
+.horizontal-list{
+    margin: 0px;
+    list-style: none;
+    padding: 0px;
+}
+
+/* Common Text-Center */
+.text-center{
+    text-align: center;
+}
+
+.horizontal-list li{
+    display: inline-block;
+    margin: 20px 8px 0px 8px;
+}
+
+.horizontal-list li a{
+    text-decoration: none;
+    color: white;
+}
+
+.nav-menu li a{
+    transition: color 0.5s, border-bottom 2s;
+}
+
+.nav-menu li a:hover{
+    color: lightgrey;
+    border-bottom: 1px solid lightgrey;
+}
+
+/* Name-Social Container */
+#name-social-container{
+    margin-top: 13vh;
+}
+
+#my-name{
+    font-size: 4rem;
+    color: white;
+    letter-spacing: 0.2rem;
+    margin-bottom: 0.5rem;
+    font-weight: 700;
+}
+
+.social-icons li a i{
+    font-size: 1.4rem;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+.social-icons li a i:hover{
+    box-shadow: 0px 0px 4px 6px rgba(290,196,196,0.3);
+}
+
+/* Common Styles to Section */
+section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+section:nth-child(2n) {
+    background-color: lightgrey;
+}
+
+section:nth-child(2n+1) {
+    background-color: white;
+}
+
+section:target{
+    background-color: black;
+}
+
+/* About Section */
+#about{
+  height: auto;
+  width: 100vw;
+  position: relative;
+}
+
+#my-image{
+    height: 12rem;
+    width: 12rem;
+    margin-top: -15vh;
+}
+
+#my-image img{
+    height: inherit;
+    width: inherit;
+    border-radius: 50%;
+    border: 1px solid lightgrey;
+    box-shadow: 0px 0px 6px 4px lightgrey;
+}
+
+/* Common Text-highlight */
+.text-highlight{
+    color: #2857a4;
+    font-weight: 600;
+}
+
+#about-para{
+    padding: 10px;
+    height: 100%;
+    width: 70%;
+    text-align: justify;
+    line-height: 24px;
+    font-size: 1.2rem;
+    font-weight: 100;
+    color: grey;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* Common Bottom Margin */
+.mb75px{
+    margin-bottom: 75px;
+}
+
+/* Skills Section */
+#skills{
+    height: auto;
+    width: 100vw;
+}
+
+.section-heading{
+    width: auto;
+    padding: 20px 10px 20px;
+}
+
+.section-heading span{
+    font-size: 40px;
+    color: #2857a4;
+    display: inline-block;
+    padding-top: 10px;
+    margin-right: 0.5rem;
+}
+
+.skills-display{
+    height: 100px;
+    width: 70%;
+    /* border: 2px solid black; */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+/* Common Skill-Progress */
+.skill-progress{
+    height: 1.4rem;
+    width: 7rem;
+    border: 1px solid black;
+    border-radius: 0.8rem;
+    background-color: lightgrey;
+}
+
+/* Common Skill-name Section */
+.skill-name{
+    color: white;
+    margin-left: 5px;
+}
+
+/* C++ Skill */
+.fifty-percent{
+    height: inherit;
+    width: 50%;
+    border-radius:20px 0px 0px 20px;
+}
+
+.mb-blue{
+    background-color: #2857a4;
+}
+
+/* HTML Skill */
+.ninty-percent{
+    height: inherit;
+    width: 90%;
+    border-radius:20px 0px 0px 20px;
+}
+
+.mb-orange{
+    background-color: orangered;
+}
+
+/* CSS Skill */
+.eighty-percent{
+    height: inherit;
+    width: 80%;
+    border-radius: 20px 0px 0px 20px;
+}
+
+.mb-magenta{
+    background-color: #93738C;
+}
+
+/* JavaScript Skill */
+.seventy-percent{
+    height: inherit;
+    width: 70%;
+    border-radius: 20px 0px 0px 20px;
+}
+
+.mb-green{
+    background-color: green;
+}
+
+/* NodeJS Skill */
+.sixty-percent{
+    height: inherit;
+    width: 60%;
+    border-radius: 20px 0px 0px 20px;
+}
