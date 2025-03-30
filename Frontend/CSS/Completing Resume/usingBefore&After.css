@@ -1,0 +1,33 @@
+p::before{
+    content: 'Before';
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+p::after{
+    content: '';
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background-image: url("WhatsApp Image 2025-03-29 at 03.11.26_906e3a95.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+ul{
+    list-style: none;
+}
+
+li::before{
+    content: '';
+    display: inline-block;
+    height: 10px;
+    width: 10px;
+    background-image: url("WhatsApp Image 2025-03-29 at 03.11.26_906e3a95.jpg");
+    background-size: contain;
+    /* background-repeat: no-repeat; */
+}
