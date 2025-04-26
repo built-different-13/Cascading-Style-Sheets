@@ -1,0 +1,19 @@
+@keyframes bounce{
+   from{
+    transform: translateY(-0px);
+   }
+   to{
+    transform: translateY(-150px);
+   }
+}
+
+div{
+    height: 150px;
+    width: 150px;
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    background-color: aquamarine;
+    border-radius: 50%;
+    animation: bounce 0.3s ease-in-out infinite alternate;
+}
